@@ -7,11 +7,11 @@
 body {
   font-family: 'Muli', sans-serif;
   text-align: center;
-  font-size:1.5vw
+  font-size: 1.5vw;
 }
 
 .header {
-  background: #fff;
+  background: #ffffff;
   height: 80px;
   border: none;
 }
@@ -34,22 +34,22 @@ a:active {
   background-size: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  width:100%;
-  height:100vh;
-  margin: 80px auto 0 auto;;
+  width: 100%;
+  height: 100vh;
+  margin: 80px auto 0 auto;
 }
 
 .picture-text {
   font-family: 'Indie Flower', cursive;
   overflow: hidden;
   font-size: 3vw;
-  color: #fff;
+  color: #ffffff;
   padding-top: 40vh;
 }
 
 .picture-text:before,
 .picture-text:after {
-  background-color: #fff;
+  background-color: #ffffff;
   content: "";
   display: inline-block;
   height: 1px;
@@ -72,7 +72,7 @@ a:active {
   font-family: 'Muli', sans-serif;
   overflow: hidden;
   font-size: 6vw;
-  color: #fff;
+  color: #ffffff;
 }
 
 .nav-padding {
@@ -106,49 +106,55 @@ a:active {
 .profile-pic {
   border-radius: 50%;
   margin: 10px;
-  width:35vw;
+  width: 35vw;
 }
 
 .statement {
   font-family: 'Bitter', serif;
   color: rgb(80, 127, 36);
-  font-size:1.5vw;
+  font-size: 1.5vw;
 }
 
 .about-text {
   margin: 30px;
 }
 
-.carousel-inner > .item > img, .carousel-inner > .item > a > img {
-  height:30vw;
-  width:25vw;
-  margin:auto;
-}
-.glyphicon-chevron-right, .glyphicon-chevron-left{
-  color:#000;
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img {
+  height: 30vw;
+  width: 25vw;
+  margin: auto;
 }
 
+.glyphicon-chevron-right, 
+.glyphicon-chevron-left{
+  color: #000000;
+}
 
 .row {
   padding-top: 20px;
-  font-size:1.5vw;
+  font-size: 1.5vw;
 }
+
 .blog-border{
-  box-shadow:inset 0px 0px 2px 5px  #888;
-  padding:10px;
+  box-shadow: inset 0px 0px 2px 5px #888888;
+  padding: 10px;
 }
+
 .contact-box{
-  width:auto;
+  width: auto;
 }
 
-.btn-contact,.btn-contact:hover, .btn-contact:focus{
-  color:#fff;
-  background:rgba(38, 12, 12, 0.7);
-  font-size:3vw;
-  border-radius:5px;
-  margin:0px -5px;
+.btn-contact,
+.btn-contact:hover, 
+.btn-contact:focus {
+  color: #ffffff;
+  background: rgba(38, 12, 12, 0.7);
+  font-size: 3vw;
+  border-radius: 5px;
+  margin: 0px -5px;
 }
 
-.fa{
-  padding:15px;
+.fa {
+  padding: 15px;
 }
